@@ -3,7 +3,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="fr">
+<html lang="fr">
 <!--<![endif]-->
 
 <head>
@@ -23,8 +23,11 @@
   <!-- CSS Librairies -->
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="foundation-sites/dist/foundation.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
+
+  <!--  Font -->
+  <link href='https://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'>
 
   <!-- Modernizr script -->
   <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -34,49 +37,132 @@
   <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-  <nav>
-    <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
-      <button class="menu-icon" type="button" data-toggle></button>
-      <div class="title-bar-title">Menu</div>
-    </div>
-
-    <div class="top-bar" id="example-menu">
-      <div class="top-bar-left">
-        <ul class="dropdown menu" data-dropdown-menu>
-          <li class="menu-text">PEEPSO</li>
-        </ul>
+        <div  class="headerbg" style="width: 100%; height: 900px;"
+          data-vide-bg="vid/salle">
+  <nav class="navbar navbar-primary navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menucollapsed" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+        <a class="navbar-brand" href="#"><img src="favicon.png" alt="logo" /> P.E.E.P.S.O.</a>
       </div>
-      <div class="top-bar-right">
-        <ul class="menu">
-          <li class="has-submenu">
-            <a href="#">One</a>
-            <ul class="dropdown-menu vertical" data-dropdown-menu>
-              <li><a href="#">One</a></li>
-              <li><a href="#">Two</a></li>
-              <li><a href="#">Three</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Two</a>
-            <ul class="submenu menu vertical" data-submenu>
-              <li><a href="#">One</a></li>
-              <li><a href="#">Two</a></li>
-            </ul></li>
-          <li><a href="#">Three</a></li>
-        </ul>
-      </div>
-    </div>
 
+      <div id="menucollapsed" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#whoim">Qui sommes-nous?</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                 Pour Qui?<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#forwho">Professionels</a></li>
+                <li><a href="#forwho">Particuliers</a></li>
+              </ul>
+            </li>
+            <li><a href="#engagements">Nos engagements</a></li>
+            <li><a href="#temoins">Témoignages</a></li>
+            <li><a href="#">Espace Adhérent</a></li>
+          </ul>
+        </div>
+      </div>
   </nav>
 
+<header class="container-fluid">
+  <div class="row">
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <div id="logo" class="col-sm-6 col-sm-offset-3 col-md-2 col-md-offset-2">
+      <img src="img/logopeepso.png" alt="logo peepso" />
+    </div>
+<div id="slogan" class="col-sm-8 col-sm-offset-2 col-md-5 col-md-offset-1">
+  <h2 class="text-center">Respect,<br> Intégrité Physique et Morale</h2>
+</div>
+
+<div class="peepso col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+  <h3><span>P</span>rogramme <span>E</span>ducation <span>E</span>valuation <span>P</span>hysique <span>S</span>anté <span>O</span>bésité</h3>
+</div>
+</div>
+</header>
+
+</div>
+  <!--END HEADER VIDEO-->
+
+<section id="whoim" class="container-fluid">
+  <div class="row">
+    <h4 class="text-center">Qui sommes-nous?</h4>
+    <div class="col-md-5 col-md-offset-1">
+
+    </div>
+    <div class="col-md-5 contenu">
+      <p>PEEPSO est une structure d'accompagnement à la réhabilitation physique. Notre équipe de professionel vous accompagne au coeur d'une salle dédiée, équipée d'appareils et outils adaptés.
+        Nos coachs vous proposeront des programmes de sports adaptés et individualisés au sein d'un groupe dynamique. Ces programmes évoluront avec vous. </p>
+    </div>
+  </div>
+</section>
+
+
+<section id="forwho">
+  <div class="row">
+    <h4 class="text-center">PEEPSO, c'est pour qui?</h4>
+  <div class="col-md-5 col-md-offset-1">
+    <img src="img/youcan.jpg" alt="you can do it" class="img-responsive imgyoucan">
+  </div>
+  <div class="col-md-5 contenu">
+    <p>PEEPSO est une structure d'accompagnement à la réhabilitation physique pour un public souffrant de surpoids, obésité, maladie métabolique ou cardio-respiratoire.
+            L'équipe propose également un suivi pré et post chirurgie de l'obésité, post natale, oncologie.</p>
+
+  </div>
+  <div class="col-md-5 col-md-offset-1 contenu">
+    <p>PEEPSO est une structure d'accompagnement à la réhabilitation physique pour un public souffrant de surpoids, obésité, maladie métabolique ou cardio-respiratoire.
+            L'équipe propose également un suivi pré et post chirurgie de l'obésité, post natale, oncologie.</p>
+
+  </div>
+  <div class="col-md-5">
+    <img src="img/professionels.jpg" alt="" class="img-responsive imgpro">
+  </div>
+</div>
+</section>
+
+
+<section id="engagements">
+  <div class="row">
+    <h4 class="text-center">Nos engagements</h4>
+  <div class="col-md-5 col-md-offset-1"></div>
+  <div class="col-md-5 contenu">
+    <p>PEEPSO est une structure d'accompagnement</p>
+
+  </div>
+</div>
+</section>
+
+
+<section id="temoins">
+  <div class="row">
+    <h4 class="text-center">Ils vous racontent PEEPSO</h4>
+  <div class="col-md-5 col-md-offset-1">
+
+</div>
+  <div class="col-md-5 contenu">
+    <p>PEEPSO est une structure d'accompagnement</p>
+
+  </div>
+</div>
+</section>
+
+<footer>
+
+</footer>
+
   <script>
     window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
   </script>
-
   <script src="js/plugins.js"></script>
-  <script src="foundation-sites/dist/foundation.js"></script>
+  <script src="js/jquery.vide.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
   <script src="js/app.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

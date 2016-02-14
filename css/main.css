@@ -55,17 +55,164 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  font-family: 'Istok Web', sans-serif;
+}
+
+
+.headerbg{
+  background-color: rgba(204, 204, 204, 0.4);
+
+}
 
 
 
+.navbar {
+  background-color: rgba(255, 255, 255, 0.72) !important;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 10px 10px
+}
+.dropdown-menu li a {
+  font-size: 1.5rem;
+  font-weight: 600 !important;
+}
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.72) !important;
+}
+.navbar ul{
+  background-color: transparent;
+}
+.navbar:hover, .dropdown-menu{
+ background-color:rgb(255, 255, 255)!important
+
+}
+  .navbar-nav li a,.navbar-nav ul li a {
+    color: rgb(47, 145, 236) !important
+}
+
+  .navbar ul li a:hover, .navbar ul li ul li a:hover {
+      color: rgb(7, 88, 163) !important;
+      font-size: 1.7rem
+
+}
+
+.navbar-brand img {
+  display: inline-block;
+
+}
+.navbar-header{
+  width:30%
+}
+.navbar-header a{
+  color: rgb(47, 145, 236) !important;
+  font-size: 1.8rem;
+  display: inline;
+  width: 100%;
+height: auto;
+  float: left;
+  padding: 0.7rem 1rem;
+}
 
 
 
+/*     HEADER STYLE    */
+
+header {
+  height: 40%;
+}
+
+.headerbg{
+  padding-top: 17%
+}
+
+#logo, #slogan, .peepso {
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 2px solid rgb(47, 145, 236);
+  border-radius: 10px
+}
+#logo, #slogan {
+  height: 100% !important
+}
+
+#logo, #slogan, .peepso{
+  text-align: center;
+}
+#slogan, .peepso {
+  color:rgb(126, 142, 29);
+}
+#slogan h2 {
+  font-size: 3.5em;
+  font-weight: 600;
+  margin-top: 3%
+}
+.peepso {
+  margin-top: 3%
+}
+.peepso h3{
+  font-size: 2.5em;
+  font-weight: 600;
+}
+.peepso span {
+  color: rgb(47, 145, 236);
+  font-size: 1.2em;
+}
+section {
+  padding: 10% 0
+}
+
+section .contenu {
+  padding: 5% 5%
+}
+section img {
+  margin-left: auto;
+  border: 1px solid black
+}
+
+section:nth-child(even) {
+  background-color: rgb(4, 83, 175)
+}
+section:nth-child(even) .contenu{
+  background-color: rgb(255, 255, 255);
+}
+  section:nth-child(even) h4 {
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    margin-bottom: 5%
+  }
+  section:nth-child(odd) h4 {
+    color: rgb(4, 83, 175);
+    font-size: 3em;
+    margin-bottom: 5%
+  }
+
+section p , section button{
+  font-size: 1.7em;
+  font-weight: 500;
+}
+
+.btn-primary {
+  width: 80%;
+  border-radius: 5%;
+  margin-top: 3%
+}
 
 
 
+/* IMAGES */
+
+.imgyoucan {
+  width: 60%;
+}
+
+.imgpro {
+  width: 70%;
+}
 
 
+footer {
+  background-color: rgb(4, 83, 175)
+}
 
 
 
